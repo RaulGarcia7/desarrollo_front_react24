@@ -1,0 +1,109 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Button /> > should match snapshot with type='error' 1`] = `
+.c0 {
+  background-color: #a80e0e;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #570202;
+  color: #ffffff;
+  align-content: centre;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+}
+
+<button
+  class="c0"
+  type="error"
+/>
+`;
+
+exports[`<Button /> > should match snapshot with type='info' 1`] = `
+.c0 {
+  background-color: #0a82e4;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: help;
+}
+
+.c0:hover {
+  background-color: #7be7de;
+  color: #000000;
+}
+
+<button
+  class="c0"
+  type="info"
+/>
+`;
+
+exports[`<Button /> > should match snapshot with type='warning' 1`] = `
+.c0 {
+  background-color: #e4c30a;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #000000;
+  color: #d8cb11;
+}
+
+<button
+  class="c0"
+  type="warning"
+/>
+`;
+
+exports[`<Button /> > should match snapshot without props 1`] = `
+.c0 {
+  background-color: #6cccac;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #2b3ff0;
+  color: whitesmoke;
+}
+
+<button
+  class="c0"
+/>
+`;
+
+exports[`<Button /> > should match snapshots with type='success' 1`] = `
+.c0 {
+  background-color: #17c700;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #066106;
+  color: whitesmoke;
+}
+
+<button
+  class="c0"
+  type="success"
+/>
+`;
